@@ -13,6 +13,11 @@ import About from './components/About/About';
 import News from './components/News/News';
 import Contact from './components/Contact/Contact';
 import Teams from './components/Teams/Teams';
+import initializeAuthentication from './Firebase/firebase.init';
+
+
+
+initializeAuthentication();
 
 
 function App() {
